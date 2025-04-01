@@ -30,6 +30,4 @@ push:
   docker push {{IMAGE_VALHALLA_TAG}}
   docker push {{IMAGE_VALHALLA_OSM_TAG}}
 
-download-data:
-  #!/usr/bin/env bash
-  cd apps/valhalla-osm && wget -O custom_files/vietnam-latest.osm.pbf https://download.geofabrik.de/asia/vietnam-latest.osm.pbf
+

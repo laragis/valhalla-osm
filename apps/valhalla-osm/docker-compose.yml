@@ -5,3 +5,6 @@ services:
       - ./custom_files/:/custom_files
     ports:
       - "8002:8002"
+    # environment:
+    #   # Auto-download PBFs from Geofabrik
+    #   - tile_urls=https://download.geofabrik.de/asia/vietnam-latest.osm.pbf
