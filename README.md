@@ -3,7 +3,8 @@
 ## CMD
 
 ```shell
-docker buildx build --tag ttungbmt/valhalla:latest .
+just build
+wget -O custom_files/vietnam-latest.osm.pbf https://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 ```
 
 ## Containers

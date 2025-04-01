@@ -1,0 +1,4 @@
+[submodule "apps/docker-valhalla"]
+	path = apps/docker-valhalla
+	url = https://github.com/laragis/docker-valhalla.git
+	branch = master

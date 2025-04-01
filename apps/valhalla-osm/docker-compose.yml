@@ -1,0 +1,7 @@
+services:
+  valhalla:
+    image: ttungbmt/valhalla-osm:latest
+    volumes:
+      - ./custom_files/:/custom_files
+    ports:
+      - "8002:8002"
