@@ -3,9 +3,7 @@
 ## CMD
 
 ```shell
-git submodule add -b master https://github.com/laragis/docker-valhalla.git repos/docker-valhalla
-
-git submodule add -b master https://github.com/laragis/valhalla.git repos/valhalla
+docker buildx build --tag ttungbmt/valhalla:latest .
 ```
 
 ## Containers
